@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  --tw-bg-opacity:1;
+  background-color: #96c2f1;
+  background-image: url(https://img.freepik.com/free-photo/top-view-composition-desk-elements-blue-background_23-2148513357.jpg?ga=GA1.1.1051753746.1721136012&semt=ais_user);
+  background-size: cover;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.calendar-container {
+  position:fixed;
+  top: 420px;
+  right: 10px; 
+  font-style: italic;
+  background-color: rgb(122, 150, 190);
+  border: 1px solid rgb(122, 150, 190);
+  box-shadow: 0 2px 4px rgba(19, 19, 19, 0.1);
+  z-index: 1000; /* Ensure it's above other content */
+}
